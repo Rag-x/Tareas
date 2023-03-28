@@ -1,4 +1,4 @@
-base=input("Escribe la base: ")
-altura=input("Escribe la altura: ")
-area=int (base) * int (altura) / 2
+base=float (input("Ingrese la base: "))
+altura=float (input("Ingrese la altura: "))
+area= (base * altura / 2)
 print ("el resultado es: ", area)
