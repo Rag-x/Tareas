@@ -26,4 +26,7 @@ print("Los numeros: {} y {} es mayor o igual: {}".format (x,y, num))
 print("Los numeros: ",x," y ",y, " es mayor o igual: ",num,"\n")
 ############################################################
 non=input("Cual es tu nombre: ") 
-print("!Hola", non ,"¡")
+print("!Hola" + str (non),"¡")
+print(f"!Hola {non} ","¡")
+print("!Hola {}".format (non),"¡")
+print("!Hola",non,"¡","\n")
