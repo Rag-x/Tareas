@@ -4,6 +4,7 @@
 print ("Nombre: Juan Bravo")
 print ("Curso: Fundamentos de Python")
 print ("Fecha: 30/3/2023")
+
 letra = input("Ingrese una letra: ")
 
 if len(letra) != 1:
