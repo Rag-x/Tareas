@@ -8,18 +8,18 @@ print ("Nombre: Juan Bravo")
 print ("Curso: Fundamentos de Python")
 print ("Fecha: 30/3/2023")
 
-n1 = float(input("Introduce un número: ") )
-n2 = float(input("Introduce un número: ") )
+val = float(input("Ingrese un valor numerico: ") )
+val2 = float(input("Introduce otro valor numerico: ") )
 num = 0
            
 print("¿Qué quieres hacer? \n1) Sumar los dos números\n2) Restar los dos números\n3) Multiplicar los dos números")
-num = int(input("Introduce un número: ") )     
+num = int(input("Introduce un número: ""\n") )     
 
 if num == 1:
-    print("La suma de",n1,"+",n2,"es",n1+n2)
+    print("La suma de",val,"+",val2,"es",val+val2)
 elif num == 2:
-    print("La resta de",n1,"-",n2,"es",n1-n2)
+    print("La resta de",val,"-",val2,"es",val-val2)
 elif num == 3:
-    print("La multiplicacion de",n1,"*",n2,"es",n1*n2)
+    print("La multiplicacion de",val,"*",val2,"es: " ,val*val2)
 else:
     print("Opción incorrecta")
