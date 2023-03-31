@@ -6,6 +6,7 @@
 #respuesta le muestre un menú con los ingredientes disponibles para que elija. Solo se puede 
 #eligir un ingrediente además de la mozzarella y el tomate que están en todas la pizzas. Al final se debe mostrar por
 #pantalla si la pizza elegida es vegetariana o no y todos los ingredientes que lleva.
+
 print ("Nombre: Juan Bravo")
 print ("Curso: Fundamentos de Python")
 print ("Fecha: 30/3/2023")

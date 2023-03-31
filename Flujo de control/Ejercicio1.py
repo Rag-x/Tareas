@@ -1,6 +1,7 @@
 print ("Nombre: Juan Bravo")
 print ("Curso: Fundamentos de Python")
 print ("Fecha: 30/3/2023")
+
 print ("Estados del semaforo /rojo/amarillo/verde")
 semaf=input("Estado del color del semaforo: ")
 if semaf=="rojo":

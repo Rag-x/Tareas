@@ -3,9 +3,11 @@
 #si es >= 70 La calificación es C,
 #si >= 60 La calificación es D,
 #sino La calificación es F,
+
 print ("Nombre: Juan Bravo")
 print ("Curso: Fundamentos de Python")
 print ("Fecha: 30/3/2023")
+
 num = int (input("Ingrese la puntuacion del examen: "))
 if num >= 90 :
     print ("La calificacion es A")

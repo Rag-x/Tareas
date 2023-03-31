@@ -2,6 +2,7 @@
 print ("Nombre: Juan Bravo")
 print ("Curso: Fundamentos de Python")
 print ("Fecha: 30/3/2023")
+
 a=int(input("Ingrese el primer numero: "))
 b=int(input("Ingrese el segundo numero: "))
 c=int(input("Ingrese el terser numero: "))
