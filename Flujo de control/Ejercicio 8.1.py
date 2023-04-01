@@ -7,6 +7,6 @@ num = input("Ingrese un numero: ")
 if len(num) != 1:
     print("No se puede procesar el dato.\n!Debe ingresar un solo un numero¡")
 elif num in "12345678910":
-    print("Es el numro",num)
+    print("El numero",num,"Se encuentra en el rango")
 else:
     print("No es un numero",num)

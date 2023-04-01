@@ -7,6 +7,7 @@
 print ("Nombre: Juan Bravo")
 print ("Curso: Fundamentos de Python")
 print ("Fecha: 30/3/2023")
+print ("Detalles:\nCalificacion de un examen")
 
 num = int (input("Ingrese la puntuacion del examen: "))
 if num >= 90 :
