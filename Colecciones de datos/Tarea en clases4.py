@@ -14,4 +14,3 @@ for e in elementos:
 print (ceros)
 print (positivos)
 print (negativos)
-
