@@ -1,10 +1,10 @@
 #CURSO DE FUNDAMENTOS DE PYTHON 
 #EJERCICIOS DE LISTAS A RESOLVER
-print("Crea una lista vacía llamada numeros e introduce los números del 1 al 5. Luego, muestra la lista por pantalla.")
+#Crea una lista vacía llamada numeros e introduce los números del 1 al 5. Luego, muestra la lista por pantalla.
 num=[]
-for e in range(1, 7):
+for e in range(1, 6):
  num.append(e)
-print("Lista de números del 1 al 6:", num) 
+print("Lista de números del 1 al 5:", num) 
 
 #Crea una lista con los nombres de tus amigos y muestra por pantalla el primer elemento de la lista.
 nom = ['Juan','Jose','David','Jonathan','Pedro','Maria','Eduardo','Fernado','Jenifer']
@@ -36,6 +36,7 @@ for e in nume:
 #Crea una lista con los nombres de tus amigos y añade un nuevo amigo a la lista. Luego, muestra la lista por pantalla.
 nom = ['Juan','Jose','David','Jonathan','Pedro','Maria','Eduardo','Fernado','Jenifer']
 ned = "Jonas"
+nom.insert(2,"Eduardo")
 nom.append(ned)
 print (nom)
 
@@ -52,5 +53,10 @@ print ("el numero de elementos de la lista es:",n)
 
 #Crea una lista con los números del 1 al 10 y muestra por pantalla la suma de todos los elementos de la lista.
 nume=[1,2,3,4,5,6,7,8,9,10]
+#Otro metodo:
+#suma=0
+#for e in nume:
+#suma+=e
+#print(suma)
 m=sum(nume)
-print ("la suma de la lista es:", m,"\n")
+print ("la suma de la lista es:", m)
