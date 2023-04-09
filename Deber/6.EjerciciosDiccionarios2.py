@@ -2,9 +2,9 @@
 #EJERCICIOS DE DICCIONARIOS
 #1.Crea un diccionario vacío y agrega tres elementos de la siguiente forma: "clave": valor
 dic = {}
-dic["nombre"] = "Juan"
-dic["ciudad"] = "Cuenca"
-dic["edad"] = 28
+dic["Usuario1"] = {"Veronica Chombo": 31}
+dic["Usuario2"] = {"Juan Bravo":18}
+dic["Usuario3"] = {"Edwin Arroyo":19}
 
 #2.Dado el siguiente diccionario:
 personas = {"Juan": 28, "María": 20, "Pedro": 32, "Ana": 25}
@@ -37,6 +37,11 @@ print("Promedio de maria",alumnos["Maria"]["promedio"])
 #c) Agrega un nuevo elemento al diccionario con la clave "Ana" y los valores "edad": 19 y "promedio": 8.0.
 alumnos["Ana"] = {"edad": 19, "promedio": 8.0}
 print(alumnos)
+for e in alumnos["edad"]:
+  if e == 20 and 22:
+    print (e)
+    
+    
 #5. Dado el siguiente diccionario:
 empleados = {"Juan": {"departamento": "Ventas", "sueldo": 1500}, "María": {"departamento": "Contabilidad", "sueldo": 1800}, "Pedro": {"departamento": "Ventas", "sueldo": 1700}, "Ana": {"departamento": "Recursos Humanos", "sueldo": 1900}}
 #a) Imprime el sueldo de Pedro.
