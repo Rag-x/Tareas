@@ -1,5 +1,18 @@
+def contadorAsendente(num):
+    cadena=""
+    cont = 0    
+    while cont <= num:
+        cadena+=str(cont)
+        cont+=1
+    return cadena 
+def contadorDescendente(num):
+    cadena = "" 
+    while num>= 0:
+        cadena += str(num)
+        num -= 1
+    return cadena  
 ##############MENU DE OPCIONES###################
-Opcion =1
+opcion =1
 while opcion>=0 and opcion<=10:
     print("############# Menu de Opciones ##############")
     print("1.contador Ascendente")
@@ -19,8 +32,12 @@ while opcion>=0 and opcion<=10:
         break
     elif opcion ==1:
         print ("A seleccionado la opcion de contador acendente")
+        num=int(input("Ingrse un numero: "))
+        print(contadorAsendente(num))
     elif opcion ==2:
         print ("A seleccionado la opcion de contador decendente")
+        num=int(input("Ingrse un numero: "))
+        print(contadorDescendente(num))
     elif opcion ==3:
         print ("A seleccionado la opcion de suma de numeros")
     elif opcion ==4:
